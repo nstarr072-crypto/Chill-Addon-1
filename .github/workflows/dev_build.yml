@@ -1,7 +1,8 @@
 name: Publish Development Build
 on: push
 
-jobs:
+jobs:permissions:
+  contents: write
   build:
     runs-on: ubuntu-latest
 
